@@ -6,7 +6,7 @@ It also works well under Valve's Proton!
 
 C&C 95 Quirks
 
-CnC-DDraw, now maintained by CnCNet, is an OpenGL and D3D implementation for forward/cross OS compatibility. You may experience hangs and crashes without it. To install, just drop the dll in your "Westwood" folder and configure a dll override in winecfg setting it to "native".
+CnC-DDraw, now maintained by CnCNet (https://github.com/CnCNet/cnc-ddraw), is an OpenGL and D3D implementation for forward/cross OS compatibility. You may experience hangs and crashes without it. To install, just drop the dll in your "Westwood" folder and configure a dll override in winecfg setting it to "native".
 
 i3wm Quirks
 
