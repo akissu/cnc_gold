@@ -1,13 +1,12 @@
 These are configs, wine prefixes, and binaries nessesary to run C&C 95 (Gold Edition) under wine, with additional configs to make it run well under i3wm.
 
-The general idea is to install C&C 95 (http://nyerguds.arsaneus-design.com/cnc95upd/cc95p106/) in wine and run it in a nested X session, which should resolve some of the limited and tempermental graphics rendering issues. The end result works well and doesn't require any winecfg or heavy CCConfig tweaks.
+The general idea is to install C&C 95 (http://nyerguds.arsaneus-design.com/cnc95upd/cc95p106/) in wine and run it in a nested X session, which should resolve some of the limited and tempermental graphics rendering issues. The end result works well and doesn't require any winecfg or heavy CCConfig tweaks, other than overriding ddraw.dll.
 
 It also works well under Valve's Proton!
 
 C&C 95 Quirks
 
-CnC-DDraw doesn't seem to work properly and causes the game to hang quite frequently, so I disable it. 
-
+CnC-DDraw, now maintained by CnCNet, is an OpenGL and D3D implementation for forward/cross OS compatibility. You may experience hangs and crashes without it. To install, just drop the dll in your "Westwood" folder and configure a dll override in winecfg setting it to "native".
 
 i3wm Quirks
 
